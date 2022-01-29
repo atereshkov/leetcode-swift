@@ -11,6 +11,9 @@
 		CBA55A09275CC81F0005C92C /* 1_TwoSum_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA55A08275CC81F0005C92C /* 1_TwoSum_Tests.swift */; };
 		CBEB611727A5563F00D40F63 /* 1_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEB611627A5563F00D40F63 /* 1_TwoSum.swift */; };
 		CBEB611A27A5583800D40F63 /* 1_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEB611627A5563F00D40F63 /* 1_TwoSum.swift */; };
+		CBEB611E27A5D86B00D40F63 /* 2_Add_Two_Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEB611D27A5D86B00D40F63 /* 2_Add_Two_Numbers.swift */; };
+		CBEB611F27A5D86B00D40F63 /* 2_Add_Two_Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEB611D27A5D86B00D40F63 /* 2_Add_Two_Numbers.swift */; };
+		CBEB612427A5D88E00D40F63 /* 2_Add_Two_Numbers_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEB612227A5D88E00D40F63 /* 2_Add_Two_Numbers_Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +34,8 @@
 		CBA55A06275CC81F0005C92C /* ProblemsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProblemsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA55A08275CC81F0005C92C /* 1_TwoSum_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1_TwoSum_Tests.swift; sourceTree = "<group>"; };
 		CBEB611627A5563F00D40F63 /* 1_TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1_TwoSum.swift; sourceTree = "<group>"; };
+		CBEB611D27A5D86B00D40F63 /* 2_Add_Two_Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2_Add_Two_Numbers.swift; sourceTree = "<group>"; };
+		CBEB612227A5D88E00D40F63 /* 2_Add_Two_Numbers_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2_Add_Two_Numbers_Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				CBEB611B27A5D6EC00D40F63 /* Easy */,
+				CBEB612027A5D87400D40F63 /* Medium */,
 				CBA559F8275CC6A10005C92C /* main.swift */,
 			);
 			path = Problems;
@@ -82,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				CBEB611C27A5D72000D40F63 /* Easy */,
+				CBEB612127A5D87F00D40F63 /* Medium */,
 			);
 			path = ProblemsTests;
 			sourceTree = "<group>";
@@ -100,6 +107,22 @@
 				CBA55A08275CC81F0005C92C /* 1_TwoSum_Tests.swift */,
 			);
 			path = Easy;
+			sourceTree = "<group>";
+		};
+		CBEB612027A5D87400D40F63 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB611D27A5D86B00D40F63 /* 2_Add_Two_Numbers.swift */,
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		CBEB612127A5D87F00D40F63 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB612227A5D88E00D40F63 /* 2_Add_Two_Numbers_Tests.swift */,
+			);
+			path = Medium;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBEB611E27A5D86B00D40F63 /* 2_Add_Two_Numbers.swift in Sources */,
 				CBEB611727A5563F00D40F63 /* 1_TwoSum.swift in Sources */,
 				CBA559F9275CC6A10005C92C /* main.swift in Sources */,
 			);
@@ -200,6 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBEB612427A5D88E00D40F63 /* 2_Add_Two_Numbers_Tests.swift in Sources */,
+				CBEB611F27A5D86B00D40F63 /* 2_Add_Two_Numbers.swift in Sources */,
 				CBEB611A27A5583800D40F63 /* 1_TwoSum.swift in Sources */,
 				CBA55A09275CC81F0005C92C /* 1_TwoSum_Tests.swift in Sources */,
 			);
