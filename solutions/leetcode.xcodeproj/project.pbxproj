@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CBA559F9275CC6A10005C92C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA559F8275CC6A10005C92C /* main.swift */; };
-		CBA55A09275CC81F0005C92C /* ProblemsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA55A08275CC81F0005C92C /* ProblemsTests.swift */; };
+		CBA55A09275CC81F0005C92C /* 1_TwoSum_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA55A08275CC81F0005C92C /* 1_TwoSum_Tests.swift */; };
+		CBEB611727A5563F00D40F63 /* 1_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEB611627A5563F00D40F63 /* 1_TwoSum.swift */; };
+		CBEB611A27A5583800D40F63 /* 1_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEB611627A5563F00D40F63 /* 1_TwoSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +29,8 @@
 		CBA559F5275CC6A10005C92C /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA559F8275CC6A10005C92C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CBA55A06275CC81F0005C92C /* ProblemsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProblemsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBA55A08275CC81F0005C92C /* ProblemsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemsTests.swift; sourceTree = "<group>"; };
+		CBA55A08275CC81F0005C92C /* 1_TwoSum_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1_TwoSum_Tests.swift; sourceTree = "<group>"; };
+		CBEB611627A5563F00D40F63 /* 1_TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1_TwoSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,7 @@
 		CBA559F7275CC6A10005C92C /* Problems */ = {
 			isa = PBXGroup;
 			children = (
+				CBEB611B27A5D6EC00D40F63 /* Easy */,
 				CBA559F8275CC6A10005C92C /* main.swift */,
 			);
 			path = Problems;
@@ -77,9 +81,25 @@
 		CBA55A07275CC81F0005C92C /* ProblemsTests */ = {
 			isa = PBXGroup;
 			children = (
-				CBA55A08275CC81F0005C92C /* ProblemsTests.swift */,
+				CBEB611C27A5D72000D40F63 /* Easy */,
 			);
 			path = ProblemsTests;
+			sourceTree = "<group>";
+		};
+		CBEB611B27A5D6EC00D40F63 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB611627A5563F00D40F63 /* 1_TwoSum.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		CBEB611C27A5D72000D40F63 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				CBA55A08275CC81F0005C92C /* 1_TwoSum_Tests.swift */,
+			);
+			path = Easy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBEB611727A5563F00D40F63 /* 1_TwoSum.swift in Sources */,
 				CBA559F9275CC6A10005C92C /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,7 +200,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBA55A09275CC81F0005C92C /* ProblemsTests.swift in Sources */,
+				CBEB611A27A5583800D40F63 /* 1_TwoSum.swift in Sources */,
+				CBA55A09275CC81F0005C92C /* 1_TwoSum_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
