@@ -1,5 +1,7 @@
 import XCTest
 
+@testable import leetcode
+
 class LetterCombinationsOfAPhoneNumberTests: XCTestCase {
     func testLetterCombinations1() {
         let res = letterCombinations("23")

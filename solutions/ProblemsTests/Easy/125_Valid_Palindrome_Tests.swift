@@ -1,5 +1,7 @@
 import XCTest
 
+@testable import leetcode
+
 class ValidPalindromeTests: XCTestCase {
     func testIsPalindrome1() {
         XCTAssertEqual(isPalindrome("A man, a plan, a canal: Panama"), true)

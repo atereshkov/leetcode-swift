@@ -1,5 +1,7 @@
 import XCTest
 
+@testable import leetcode
+
 class ContainsDuplicateTests: XCTestCase {
     func testContainsDuplicate1() {
         XCTAssertTrue(containsDuplicate([1,2,3,1]))

@@ -1,5 +1,7 @@
 import XCTest
 
+@testable import leetcode
+
 class ValidAnagramTests: XCTestCase {
     func testIsAnagram1() {
         XCTAssertTrue(isAnagram("anagram", "nagaram"))

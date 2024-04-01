@@ -1,5 +1,7 @@
 import XCTest
 
+@testable import leetcode
+
 class MinStackTests: XCTestCase {
     func testMinStack1() {
         let stack = MinStack()

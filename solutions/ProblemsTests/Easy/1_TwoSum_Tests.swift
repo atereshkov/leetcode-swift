@@ -1,5 +1,7 @@
 import XCTest
 
+@testable import leetcode
+
 class TwoSumTests: XCTestCase {
     func testTwoSum() {
         XCTAssertEqual(twoSum([2, 7, 11, 15], 9), [0, 1])
