@@ -26,4 +26,19 @@
 
 import Foundation
 
+// Option 1. O(m * n)
 
+func groupAnagrams(_ strs: [String]) -> [[String]] {
+    var result = [String: [String]]()
+
+    for str in strs {
+        let key = String(str.sorted())
+        if result[key] != nil {
+            result[key]?.append(str)
+        } else {
+            result[key] = [str]
+        }
+    }
+    
+    return result.map { $0.value }
+}
