@@ -17,7 +17,7 @@
 
  Constraints:
 
- 1 <= strs.length <= 104
+ 1 <= strs.length <= 10^4
  0 <= strs[i].length <= 100
  strs[i] consists of lowercase English letters.
 
@@ -29,6 +29,7 @@ import Foundation
 // Option 1. O(m * n)
 
 func groupAnagrams(_ strs: [String]) -> [[String]] {
+    // sorted letters of a word (key) and array of anagrams (value)
     var result = [String: [String]]()
 
     for str in strs {
