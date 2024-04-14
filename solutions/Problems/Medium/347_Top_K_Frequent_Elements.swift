@@ -46,13 +46,10 @@ func topKFrequent2(_ nums: [Int], _ k: Int) -> [Int] {
     for i in 0..<nums.count {
         freq[i] = []
     }
-
     for num in nums {
         count[num] = (count[num] ?? 0) + 1
     }
     for c in count {
-//        freq[c.value] = [c.key]
-//        freq[c.value]?.append(c.key)
         if freq[c.value] != nil {
             freq[c.value]?.append(c.key)
         } else {

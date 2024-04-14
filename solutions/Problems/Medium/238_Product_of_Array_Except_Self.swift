@@ -24,5 +24,9 @@
 import Foundation
 
 func productExceptSelf(_ nums: [Int]) -> [Int] {
-    return []
+    var result: [Int] = []
+    for i in nums {
+        
+    }
+    return result
 }
