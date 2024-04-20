@@ -23,10 +23,66 @@
 
 import Foundation
 
+// Option 1, Time O(n * 2), Memory O(n * 2) or simply O(n) ignoring constant factor.
+
 func productExceptSelf(_ nums: [Int]) -> [Int] {
     var result: [Int] = []
-    for i in nums {
-        
+
+    // Index, suffix product
+    var postfixData: [Int: Int] = [:]
+
+    var postfixProduct: Int = 1
+    for index in (0...nums.count - 1).reversed() {
+        postfixData[index] = postfixProduct
+        postfixProduct *= nums[index]
+    }
+
+    // Index, prefix product
+    var prefixData: [Int: Int] = [:]
+
+    var prefixProduct: Int = 1
+
+    for index in 0..<nums.count {
+        prefixData[index] = prefixProduct
+        prefixProduct *= nums[index]
+        let res = prefixData[index]! * postfixData[index]!
+        result.append(res)
     }
     return result
+}
+
+// Option 2 (improved Option 1 without extra prefix/postfix arrays memory). Time O(n), Memory O(1)
+
+func productExceptSelf2(_ nums: [Int]) -> [Int] {
+    var result = Array(repeating: 1, count: nums.count)
+
+    var prefixProduct = 1
+    for i in 0..<nums.count {
+        result[i] *= prefixProduct
+        prefixProduct *= nums[i]
+    }
+
+    var postfixProduct = 1
+    for i in (0..<nums.count).reversed() {
+        result[i] *= postfixProduct
+        postfixProduct *= nums[i]
+    }
+
+    return result
+
+    /*
+     prefix:
+     ->
+     |       a       |   a*b   | a*b*c | a*b*c*d |
+     postfix:
+     <-
+     | a*b*c*d | b*c*d |   c*d   |      d        |
+     the result is a multiply without the symbol in own position (the left value from prefix and the right one from postfix):
+     |    b*c*d  | a*c*d | a*b*d |   a*b*c   |
+
+     prefix:
+     | 1 | a | a * b | a * b * c |
+     postfix:
+     |b * c * d |  c * d | d | 1 |
+     */
 }
