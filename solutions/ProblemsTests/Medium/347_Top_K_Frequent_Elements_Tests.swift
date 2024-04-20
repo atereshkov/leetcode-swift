@@ -17,6 +17,7 @@ class TopKFrequentElementsTests: XCTestCase {
         XCTAssertEqual(topKFrequent([-1, -1], 1), [-1])
         XCTAssertEqual(topKFrequent2([-1, -1], 1), [-1])
     }
+
     func testTopKFrequentElements4() {
         XCTAssertEqual(topKFrequent([1, 2], 2), [1, 2])
         XCTAssertEqual(topKFrequent2([1, 2], 2), [1, 2])
