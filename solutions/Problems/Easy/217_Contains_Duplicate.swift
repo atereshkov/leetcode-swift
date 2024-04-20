@@ -27,7 +27,7 @@ func containsDuplicate(_ nums: [Int]) -> Bool {
     return Set(nums).count != nums.count
 }
 
-// Option 2
+// Option 2, O(n)
 
 func containsDuplicate2(_ nums: [Int]) -> Bool {
     var set = Set<Int>()
