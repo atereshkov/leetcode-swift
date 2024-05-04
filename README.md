@@ -17,9 +17,13 @@
 
 ### Two Pointers
 
+| Problem | Leetcode | Difficulty | Topics | Notes | 
+|---|---|---|---|---|
 | [125 - Valid Palindrome](/solutions/Problems/Easy/125_Valid_Palindrome.swift) | [Leetcode](https://leetcode.com/problems/valid-palindrome) | Easy | Two Pointers, String | Left and right pointer. Compare left/right chars (lowercased) in while loop. Increase left or decrease right pointer unless there's a letter/number (ascii) char found to compare. |
-| [167 - Two Sum II - Input Array Is Sorted](/solutions/Problems/Medium/167_Two_Sum_II_Input_Array_Is_Sorted.swift) | [Leetcode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | Medium | Array, Two Pointers, Binary Search | TBD |
-
+| [167 - Two Sum II - Input Array Is Sorted](/solutions/Problems/Medium/167_Two_Sum_II_Input_Array_Is_Sorted.swift) | [Leetcode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | Medium | Array, Two Pointers, Binary Search | Notes |
+| [15 - 3Sum](/solutions/Problems/Medium/15_3Sum.swift) | [Leetcode](https://leetcode.com/problems/3sum) | Medium | TBD | Notes |
+| [11 - Container With Most Water](/solutions/Problems/Medium/11_Container_With_Most_Water.swift) | [Leetcode](https://leetcode.com/problems/container-with-most-water) | Medium | TBD | Notes |
+| [42 - Trapping Rain Water](/solutions/Problems/Medium/42_Trapping_Rain_Water.swift) | [Leetcode](https://leetcode.com/problems/trapping-rain-water) | Hard | TBD | Notes |
 
 ### Stack
 
