@@ -26,6 +26,8 @@
 
 import Foundation
 
+// Option 1.
+
 func isPalindrome(_ s: String) -> Bool {
     let str = s
         .components(separatedBy: CharacterSet.alphanumerics.inverted).joined()
@@ -40,4 +42,28 @@ func isPalindrome(_ s: String) -> Bool {
     }
 
     return false
+}
+
+// Option 2. Time: O(n). Memory: O(1)
+
+func isPalindrome2(_ s: String) -> Bool {
+    var lPointer = 0
+    var rPointer = s.count - 1
+    
+    while lPointer < rPointer {
+        while lPointer < rPointer && !(s[lPointer].isLetter || s[lPointer].isNumber) {
+            lPointer += 1
+        }
+        while rPointer > lPointer && !(s[rPointer].isLetter || s[rPointer].isNumber) {
+            rPointer -= 1
+        }
+        if s[lPointer].lowercased() != s[rPointer].lowercased() {
+            return false
+        } else {
+            lPointer += 1
+            rPointer -= 1
+        }
+    }
+
+    return true
 }

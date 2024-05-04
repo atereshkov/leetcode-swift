@@ -17,6 +17,8 @@
 
 ### Two Pointers
 
+| [125 - Valid Palindrome](/solutions/Problems/Easy/125_Valid_Palindrome.swift) | [Leetcode](https://leetcode.com/problems/valid-palindrome) | Easy | Two Pointers, String | Left and right pointer. Compare left/right chars (lowercased) in while loop. Increase left or decrease right pointer unless there's a letter/number (ascii) char found to compare. |
+
 
 
 ### Stack
