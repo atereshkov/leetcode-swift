@@ -32,14 +32,47 @@
 
 import Foundation
 
-// Option 1. Time: ?, Memory: ?
+// Option 1. Time: O(n), Memory: O(n)
 
-func option1() {
-    
-}
+class P167 {
+    func twoSum(_ numbers: [Int], _ target: Int) -> [Int] {
+        var lPointer = 0
+        var rPointer = numbers.count - 1
 
-// Option 2. Time: ?, Memory: ?
+        while lPointer < rPointer {
+            // decrease the right pointer to the left until the nums[lP] + nums[rP] is bigger than target
+            while lPointer < rPointer && numbers[lPointer] + numbers[rPointer] > target {
+                rPointer -= 1
+            }
+            if numbers[lPointer] + numbers[rPointer] == target {
+                return [lPointer + 1, rPointer + 1]
+            }
+            // if sum is still not right, increase the sum by taking next left pointer
+            if numbers[lPointer] < target {
+                lPointer += 1
+            }
+        }
 
-func option2() {
+        return []
+    }
 
+    // Option 2. Solution from neetcode. Time: O(n), Memory: O(n)
+
+    func twoSum2(_ numbers: [Int], _ target: Int) -> [Int] {
+        var lPointer = 0
+        var rPointer = numbers.count - 1
+
+        while lPointer < rPointer {
+            let currentSum = numbers[lPointer] + numbers[rPointer]
+            if currentSum > target {
+                rPointer -= 1
+            } else if currentSum < target {
+                lPointer += 1
+            } else if currentSum == target {
+                return [lPointer + 1, rPointer + 1]
+            }
+        }
+
+        return []
+    }
 }
