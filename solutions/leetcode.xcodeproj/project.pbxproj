@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F33A54E2BE79E32005AD388 /* 15_3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F33A54D2BE79E32005AD388 /* 15_3Sum.swift */; };
+		4F33A5502BE79E65005AD388 /* 15_3Sum_TestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F33A54F2BE79E65005AD388 /* 15_3Sum_TestsTests.swift */; };
 		4F47D84B2BBB080E0090C610 /* 49_Group_Anagrams_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47D8492BBB080E0090C610 /* 49_Group_Anagrams_Tests.swift */; };
 		4F47D84C2BBB08E00090C610 /* 49_Group_Anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47D8462BBB06B60090C610 /* 49_Group_Anagrams.swift */; };
 		4F47D84D2BBB08F00090C610 /* 242_Valid_Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA2EC2A9A88CB004211D9 /* 242_Valid_Anagram.swift */; };
@@ -53,6 +55,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4F33A54D2BE79E32005AD388 /* 15_3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15_3Sum.swift; sourceTree = "<group>"; };
+		4F33A54F2BE79E65005AD388 /* 15_3Sum_TestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15_3Sum_TestsTests.swift; sourceTree = "<group>"; };
 		4F47D8462BBB06B60090C610 /* 49_Group_Anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 49_Group_Anagrams.swift; sourceTree = "<group>"; };
 		4F47D8492BBB080E0090C610 /* 49_Group_Anagrams_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 49_Group_Anagrams_Tests.swift; sourceTree = "<group>"; };
 		4F47D84E2BC2E9B30090C610 /* 347_Top_K_Frequent_Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 347_Top_K_Frequent_Elements.swift; sourceTree = "<group>"; };
@@ -169,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				CBEB611D27A5D86B00D40F63 /* 2_Add_Two_Numbers.swift */,
+				4F33A54D2BE79E32005AD388 /* 15_3Sum.swift */,
 				CBEB613627A6AEB500D40F63 /* 17_Letter_Combinations_of_a_Phone_Number.swift */,
 				CBEB612527A5DAEB00D40F63 /* 22_Generate_Parentheses.swift */,
 				4F7C78C72BD3C9D200A7C9D2 /* 36_Valid_Sudoku.swift */,
@@ -187,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				CBEB612227A5D88E00D40F63 /* 2_Add_Two_Numbers_Tests.swift */,
+				4F33A54F2BE79E65005AD388 /* 15_3Sum_TestsTests.swift */,
 				CBEB613927A6AEF900D40F63 /* 17_Letter_Combinations_of_a_Phone_Number_Tests.swift */,
 				CBEB612827A5DB1D00D40F63 /* 22_Generate_Parentheses_Tests.swift */,
 				4F7C78C92BD3C9DC00A7C9D2 /* 36_Valid_Sudoku_Tests.swift */,
@@ -303,9 +309,11 @@
 				CBEB613827A6AEB500D40F63 /* 17_Letter_Combinations_of_a_Phone_Number.swift in Sources */,
 				4F47D84B2BBB080E0090C610 /* 49_Group_Anagrams_Tests.swift in Sources */,
 				4F7C78D12BD46A6000A7C9D2 /* 271_Encode_and_Decode_Strings_Tests.swift in Sources */,
+				4F33A5502BE79E65005AD388 /* 15_3Sum_TestsTests.swift in Sources */,
 				CBEB613B27A6AEF900D40F63 /* 17_Letter_Combinations_of_a_Phone_Number_Tests.swift in Sources */,
 				CBEB612427A5D88E00D40F63 /* 2_Add_Two_Numbers_Tests.swift in Sources */,
 				4F47D8522BC2EAC20090C610 /* 347_Top_K_Frequent_Elements.swift in Sources */,
+				4F33A54E2BE79E32005AD388 /* 15_3Sum.swift in Sources */,
 				CBEB611F27A5D86B00D40F63 /* 2_Add_Two_Numbers.swift in Sources */,
 				4FEBA2E82A9A5A8A004211D9 /* 217_Contains_Duplicate.swift in Sources */,
 				4F47D84C2BBB08E00090C610 /* 49_Group_Anagrams.swift in Sources */,
