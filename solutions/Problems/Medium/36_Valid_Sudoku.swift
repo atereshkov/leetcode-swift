@@ -1,4 +1,6 @@
 /*
+ Done: 20.04.2024. Revisited: N/A
+ 
  Determine if a 9 x 9 Sudoku board is valid. Only the filled cells need to be validated according to the following rules:
  1. Each row must contain the digits 1-9 without repetition.
  2. Each column must contain the digits 1-9 without repetition.
