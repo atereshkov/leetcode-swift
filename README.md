@@ -29,4 +29,10 @@
 
 | Problem | Leetcode | Difficulty | Topics | Notes | 
 |---|---|---|---|---|
-| [20 - Valid Parentheses](/solutions/Problems/Easy/20_Valid_Parentheses.swift) | [Leetcode](https://leetcode.com/problems/valid-parentheses/) | 🟢 | TBD | Notes |
+| [20 - Valid Parentheses](/solutions/Problems/Easy/20_Valid_Parentheses.swift) | [Leetcode](https://leetcode.com/problems/valid-parentheses) | 🟢 | String, Stack | Notes |
+| [155 - Min Stack](/solutions/Problems/Medium/155_Min_Stack.swift) | [Leetcode](https://leetcode.com/problems/min-stack) | 🟡 | TBD | Notes |
+| [150 - Evaluate Reverse Polish Notation](/solutions/Problems/Medium/150_Evaluate_Reverse_Polish_Notation.swift) | [Leetcode](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 🟡 | TBD | Notes |
+| [22 - Generate Parentheses](/solutions/Problems/Medium/22_Generate_Parentheses.swift) | [Leetcode](https://leetcode.com/problems/generate-parentheses/) | 🟡 | TBD | Notes |
+| [739 - Daily Temperatures](/solutions/Problems/Medium/739_Daily_Temperatures.swift) | [Leetcode](https://leetcode.com/problems/daily-temperatures/description/) | 🟡 | TBD | Notes |
+| [853 - Car Fleet](/solutions/Problems/Medium/853_Car_Fleet.swift) | [Leetcode](https://leetcode.com/problems/car-fleet/) | 🟡 | TBD | Notes |
+| [84 - Largest Rectangle In Histogram](/solutions/Problems/Hard/84_Largest_Rectangle_In_Histogram.swift) | [Leetcode](https://leetcode.com/problems/largest-rectangle-in-histogram/) | 🔴 | TBD | Notes |
