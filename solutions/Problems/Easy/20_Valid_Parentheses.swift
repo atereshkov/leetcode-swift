@@ -1,5 +1,5 @@
 /*
- Done: TBD. Revisited: N/A
+ Done: 31.05.2024. Revisited: N/A
 
  Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
@@ -29,15 +29,43 @@ import Foundation
 
 class P20 {
 
-    // MARK: - Option 1. Time: O(?). Memory: O(?)
+    class CharStack {
 
-    func isValid(_ s: String) -> Bool {
-        return false
+        private var stack: [Character]
+
+        init() {
+            stack = []
+        }
+
+        func push(_ val: Character) {
+            stack.append(val)
+        }
+
+        func pop() -> Character? {
+            stack.removeLast()
+        }
+
+        func top() -> Character? {
+            return stack.last
+        }
     }
 
-    // MARK: - Option 2. Time: O(n). Memory: O(n)
+    // MARK: - Option 1. NC. Time: O(n). Memory: O(n)
 
-    func isValid2(_ s: String) -> Bool {
-        return false
+    func isValid(_ s: String) -> Bool {
+        let stack = CharStack()
+        let closeToOpen: [Character: Character] = [")": "(", "}": "{", "]": "["]
+        for char in s {
+            if closeToOpen.values.contains(char) {
+                stack.push(char)
+            } else {
+                if stack.top() == closeToOpen[char] {
+                    _ = stack.pop()
+                } else {
+                    return false
+                }
+            }
+        }
+        return stack.top() == nil
     }
 }
