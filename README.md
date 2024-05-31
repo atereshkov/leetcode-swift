@@ -23,7 +23,10 @@
 | [167 - Two Sum II - Input Array Is Sorted](/solutions/Problems/Medium/167_Two_Sum_II_Input_Array_Is_Sorted.swift) | [Leetcode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | 🟡 | Array, Two Pointers, Binary Search | In while calculate the sum (left and right pointers). If sum > target, decrease right pointer. If sum < target, increase left pointer. If sum == target, return. |
 | [15 - 3Sum](/solutions/Problems/Medium/15_3Sum.swift) | [Leetcode](https://leetcode.com/problems/3sum) | 🟡 | Array, Two Pointers, Sorting | Similar to the "2 Sum" approach. Sort the array first. Skip dups while iterating. Then apply "2 Sum" method, for each num and update left pointer (while no dup value found). |
 | [11 - Container With Most Water](/solutions/Problems/Medium/11_Container_With_Most_Water.swift) | [Leetcode](https://leetcode.com/problems/container-with-most-water) | 🟡 | Array, Two Pointers, Greedy | The left p is the start, and the right p is the end of the array. Calculate the max area ((r - l) * min(h[l], h[r])) and update the left or right pointer depending on whether h[l] is < or > than h[r]. |
-| [42 - Trapping Rain Water](/solutions/Problems/Medium/42_Trapping_Rain_Water.swift) | [Leetcode](https://leetcode.com/problems/trapping-rain-water) | 🔴 | TBD | Notes |
+| [42 - Trapping Rain Water](/solutions/Problems/Hard/42_Trapping_Rain_Water.swift) | [Leetcode](https://leetcode.com/problems/trapping-rain-water) | 🔴 | Array, Two Pointers, DP, Stack, Monotonic Stack | Notes |
 
 ### Stack
 
+| Problem | Leetcode | Difficulty | Topics | Notes | 
+|---|---|---|---|---|
+| [20 - Valid Parentheses](/solutions/Problems/Easy/20_Valid_Parentheses.swift) | [Leetcode](https://leetcode.com/problems/valid-parentheses/) | 🟢 | TBD | Notes |
