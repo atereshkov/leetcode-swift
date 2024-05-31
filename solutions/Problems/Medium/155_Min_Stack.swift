@@ -1,13 +1,16 @@
 /*
+ Done: 31.05.2024. Revisited: N/A
+
  Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
 
  Implement the MinStack class:
-
  MinStack() initializes the stack object.
  void push(int val) pushes the element val onto the stack.
  void pop() removes the element on the top of the stack.
  int top() gets the top element of the stack.
  int getMin() retrieves the minimum element in the stack.
+
+ You must implement a solution with O(1) time complexity for each function.
 
  Example 1:
  Input
@@ -28,9 +31,9 @@
  minStack.getMin(); // return -2
 
  Constraints:
- -231 <= val <= 231 - 1
+ -2^31 <= val <= 2^31 - 1
  Methods pop, top and getMin operations will always be called on non-empty stacks.
- At most 3 * 104 calls will be made to push, pop, top, and getMin.
+ At most 3 * 10^4 calls will be made to push, pop, top, and getMin.
  */
 
 import Foundation
@@ -38,17 +41,21 @@ import Foundation
 class MinStack {
 
     private var stack: [Int]
+    private var minStack: [Int]
 
     init() {
         stack = []
+        minStack = []
     }
 
     func push(_ val: Int) {
         stack.append(val)
+        minStack.append(min(val, minStack.last ?? val))
     }
 
     func pop() {
         stack.removeLast()
+        minStack.removeLast()
     }
 
     func top() -> Int {
@@ -56,6 +63,6 @@ class MinStack {
     }
 
     func getMin() -> Int {
-        return stack.min()!
+        return minStack.last!
     }
 }
