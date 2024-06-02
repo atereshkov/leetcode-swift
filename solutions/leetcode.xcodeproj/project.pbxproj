@@ -22,6 +22,8 @@
 		4F795E952C0A443B0025FE35 /* 20_Valid_ParenthesesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F795E942C0A443B0025FE35 /* 20_Valid_ParenthesesTests.swift */; };
 		4F795E972C0A57D30025FE35 /* 150_Evaluate_Reverse_Polish_Notation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F795E962C0A57D30025FE35 /* 150_Evaluate_Reverse_Polish_Notation.swift */; };
 		4F795E992C0A57DE0025FE35 /* 150_Evaluate_Reverse_Polish_Notation_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F795E982C0A57DE0025FE35 /* 150_Evaluate_Reverse_Polish_Notation_Tests.swift */; };
+		4F795E9B2C0C90000025FE35 /* 739_Daily_Temperatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F795E9A2C0C90000025FE35 /* 739_Daily_Temperatures.swift */; };
+		4F795E9D2C0C90090025FE35 /* 739_Daily_Temperatures_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F795E9C2C0C90090025FE35 /* 739_Daily_Temperatures_Tests.swift */; };
 		4F7C78C82BD3C9D200A7C9D2 /* 36_Valid_Sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C78C72BD3C9D200A7C9D2 /* 36_Valid_Sudoku.swift */; };
 		4F7C78CA2BD3C9DC00A7C9D2 /* 36_Valid_Sudoku_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C78C92BD3C9DC00A7C9D2 /* 36_Valid_Sudoku_Tests.swift */; };
 		4F7C78CF2BD46A5200A7C9D2 /* 271_Encode_and_Decode_Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C78CE2BD46A5200A7C9D2 /* 271_Encode_and_Decode_Strings.swift */; };
@@ -78,6 +80,8 @@
 		4F795E942C0A443B0025FE35 /* 20_Valid_ParenthesesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20_Valid_ParenthesesTests.swift; sourceTree = "<group>"; };
 		4F795E962C0A57D30025FE35 /* 150_Evaluate_Reverse_Polish_Notation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 150_Evaluate_Reverse_Polish_Notation.swift; sourceTree = "<group>"; };
 		4F795E982C0A57DE0025FE35 /* 150_Evaluate_Reverse_Polish_Notation_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 150_Evaluate_Reverse_Polish_Notation_Tests.swift; sourceTree = "<group>"; };
+		4F795E9A2C0C90000025FE35 /* 739_Daily_Temperatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 739_Daily_Temperatures.swift; sourceTree = "<group>"; };
+		4F795E9C2C0C90090025FE35 /* 739_Daily_Temperatures_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 739_Daily_Temperatures_Tests.swift; sourceTree = "<group>"; };
 		4F7C78C72BD3C9D200A7C9D2 /* 36_Valid_Sudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 36_Valid_Sudoku.swift; sourceTree = "<group>"; };
 		4F7C78C92BD3C9DC00A7C9D2 /* 36_Valid_Sudoku_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 36_Valid_Sudoku_Tests.swift; sourceTree = "<group>"; };
 		4F7C78CE2BD46A5200A7C9D2 /* 271_Encode_and_Decode_Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 271_Encode_and_Decode_Strings.swift; sourceTree = "<group>"; };
@@ -225,6 +229,7 @@
 				4F47D8532BC325BF0090C610 /* 238_Product_of_Array_Except_Self.swift */,
 				4F7C78CE2BD46A5200A7C9D2 /* 271_Encode_and_Decode_Strings.swift */,
 				4F47D84E2BC2E9B30090C610 /* 347_Top_K_Frequent_Elements.swift */,
+				4F795E9A2C0C90000025FE35 /* 739_Daily_Temperatures.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 				4F47D8552BC325C80090C610 /* 238_Product_of_Array_Except_Self_Tests.swift */,
 				4F7C78D02BD46A6000A7C9D2 /* 271_Encode_and_Decode_Strings_Tests.swift */,
 				4F47D8502BC2E9C70090C610 /* 347_Top_K_Frequent_Elements_Tests.swift */,
+				4F795E9C2C0C90090025FE35 /* 739_Daily_Temperatures_Tests.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -361,6 +367,8 @@
 				CBEB612427A5D88E00D40F63 /* 2_Add_Two_Numbers_Tests.swift in Sources */,
 				4F795E952C0A443B0025FE35 /* 20_Valid_ParenthesesTests.swift in Sources */,
 				4F47D8522BC2EAC20090C610 /* 347_Top_K_Frequent_Elements.swift in Sources */,
+				4F795E9B2C0C90000025FE35 /* 739_Daily_Temperatures.swift in Sources */,
+				4F795E9D2C0C90090025FE35 /* 739_Daily_Temperatures_Tests.swift in Sources */,
 				4F33A54E2BE79E32005AD388 /* 15_3Sum.swift in Sources */,
 				CBEB611F27A5D86B00D40F63 /* 2_Add_Two_Numbers.swift in Sources */,
 				4FEBA2E82A9A5A8A004211D9 /* 217_Contains_Duplicate.swift in Sources */,
