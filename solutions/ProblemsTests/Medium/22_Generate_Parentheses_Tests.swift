@@ -3,8 +3,11 @@ import XCTest
 @testable import leetcode
 
 class GenerateParenthesesTests: XCTestCase {
+    
+    // Option 1
+
     func testGenerateParenthesis1() {
-        let res = generateParenthesis(1)
-        XCTAssertEqual(res, ["()"])
+        XCTAssertEqual(P22().generateParenthesis(1), ["()"])
+        XCTAssertEqual(P22().generateParenthesis(3), ["((()))", "(()())", "(())()", "()(())", "()()()"])
     }
 }
