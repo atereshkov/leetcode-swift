@@ -36,3 +36,9 @@
 | [739 - Daily Temperatures](/solutions/Problems/Medium/739_Daily_Temperatures.swift) | [Leetcode](https://leetcode.com/problems/daily-temperatures/description/) | 🟡 | Array, Stack, Monotonic Stack | <details><summary>⚠️ Notes (solution spoiler alert)</summary>TBD to deep dive</details> |
 | [853 - Car Fleet](/solutions/Problems/Medium/853_Car_Fleet.swift) | [Leetcode](https://leetcode.com/problems/car-fleet/) | 🟡 | TBD | <details><summary>⚠️ Notes (solution spoiler alert)</summary>Notes</details> |
 | [84 - Largest Rectangle In Histogram](/solutions/Problems/Hard/84_Largest_Rectangle_In_Histogram.swift) | [Leetcode](https://leetcode.com/problems/largest-rectangle-in-histogram/) | 🔴 | TBD | <details><summary>⚠️ Notes (solution spoiler alert)</summary>TBD</details> |
+
+### Binary Search
+
+| Problem | Leetcode | Difficulty | Topics | Notes | 
+|---|---|---|---|---|
+| [704 - Binary Search](/solutions/Problems/Easy/704_Binary_Search.swift) | [Leetcode](https://leetcode.com/problems/binary-search) | 🟢 | Array, Binary Search | <details><summary>⚠️ Notes (solution spoiler alert)</summary>TBD</details> |
