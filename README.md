@@ -42,3 +42,5 @@
 | Problem | Leetcode | Difficulty | Topics | Notes | 
 |---|---|---|---|---|
 | [704 - Binary Search](/solutions/Problems/Easy/704_Binary_Search.swift) | [Leetcode](https://leetcode.com/problems/binary-search) | 🟢 | Array, Binary Search | <details><summary>⚠️ Notes (solution spoiler alert)</summary>TBD</details> |
+| [74 - Search a 2D Matrix](/solutions/Problems/Medium/74_Search_2D_Matrix.swift) | [Leetcode](https://leetcode.com/problems/search-a-2d-matrix) | 🟡 | Array, Binary Search, Matrix | <details><summary>⚠️ Notes (solution spoiler alert)</summary>TBD</details> |
+
