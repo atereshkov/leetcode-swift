@@ -38,6 +38,8 @@
 		4F8490F52C02226C004AC7DE /* 11_Container_With_Most_Water_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8490F42C02226C004AC7DE /* 11_Container_With_Most_Water_Tests.swift */; };
 		4FA541522D062A9B00FAA179 /* 704_Binary_Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA541512D062A9B00FAA179 /* 704_Binary_Search.swift */; };
 		4FA541542D062AAC00FAA179 /* 704_Binary_Search_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA541532D062AAC00FAA179 /* 704_Binary_Search_Tests.swift */; };
+		4FA541562D0642C500FAA179 /* 74_Search_2D_Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA541552D0642C500FAA179 /* 74_Search_2D_Matrix.swift */; };
+		4FA541582D0642D300FAA179 /* 74_Search_2D_Matrix_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA541572D0642D300FAA179 /* 74_Search_2D_Matrix_Tests.swift */; };
 		4FA9A0182BF8A3670099BA48 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4FA9A0172BF8A3670099BA48 /* README.md */; };
 		4FEBA2E82A9A5A8A004211D9 /* 217_Contains_Duplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA2E62A9A5A8A004211D9 /* 217_Contains_Duplicate.swift */; };
 		4FEBA2EB2A9A5AED004211D9 /* 217_Contains_Duplicate_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA2E92A9A5AED004211D9 /* 217_Contains_Duplicate_Tests.swift */; };
@@ -100,6 +102,8 @@
 		4F8490F42C02226C004AC7DE /* 11_Container_With_Most_Water_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11_Container_With_Most_Water_Tests.swift; sourceTree = "<group>"; };
 		4FA541512D062A9B00FAA179 /* 704_Binary_Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 704_Binary_Search.swift; sourceTree = "<group>"; };
 		4FA541532D062AAC00FAA179 /* 704_Binary_Search_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 704_Binary_Search_Tests.swift; sourceTree = "<group>"; };
+		4FA541552D0642C500FAA179 /* 74_Search_2D_Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 74_Search_2D_Matrix.swift; sourceTree = "<group>"; };
+		4FA541572D0642D300FAA179 /* 74_Search_2D_Matrix_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 74_Search_2D_Matrix_Tests.swift; sourceTree = "<group>"; };
 		4FA9A0172BF8A3670099BA48 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4FEBA2E62A9A5A8A004211D9 /* 217_Contains_Duplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 217_Contains_Duplicate.swift; sourceTree = "<group>"; };
 		4FEBA2E92A9A5AED004211D9 /* 217_Contains_Duplicate_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 217_Contains_Duplicate_Tests.swift; sourceTree = "<group>"; };
@@ -241,6 +245,7 @@
 				4F47D84E2BC2E9B30090C610 /* 347_Top_K_Frequent_Elements.swift */,
 				4F795E9A2C0C90000025FE35 /* 739_Daily_Temperatures.swift */,
 				4F795E9E2C0CCEA10025FE35 /* 853_Car_Fleet.swift */,
+				4FA541552D0642C500FAA179 /* 74_Search_2D_Matrix.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 				4F47D8502BC2E9C70090C610 /* 347_Top_K_Frequent_Elements_Tests.swift */,
 				4F795E9C2C0C90090025FE35 /* 739_Daily_Temperatures_Tests.swift */,
 				4F795EA02C0CCEAB0025FE35 /* 853_Car_Fleet_Tests.swift */,
+				4FA541572D0642D300FAA179 /* 74_Search_2D_Matrix_Tests.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -378,6 +384,7 @@
 				4F33A5502BE79E65005AD388 /* 15_3Sum_TestsTests.swift in Sources */,
 				CBEB613B27A6AEF900D40F63 /* 17_Letter_Combinations_of_a_Phone_Number_Tests.swift in Sources */,
 				CBEB612427A5D88E00D40F63 /* 2_Add_Two_Numbers_Tests.swift in Sources */,
+				4FA541562D0642C500FAA179 /* 74_Search_2D_Matrix.swift in Sources */,
 				4F795E952C0A443B0025FE35 /* 20_Valid_ParenthesesTests.swift in Sources */,
 				4F47D8522BC2EAC20090C610 /* 347_Top_K_Frequent_Elements.swift in Sources */,
 				4FA541542D062AAC00FAA179 /* 704_Binary_Search_Tests.swift in Sources */,
@@ -386,6 +393,7 @@
 				4F33A54E2BE79E32005AD388 /* 15_3Sum.swift in Sources */,
 				CBEB611F27A5D86B00D40F63 /* 2_Add_Two_Numbers.swift in Sources */,
 				4FEBA2E82A9A5A8A004211D9 /* 217_Contains_Duplicate.swift in Sources */,
+				4FA541582D0642D300FAA179 /* 74_Search_2D_Matrix_Tests.swift in Sources */,
 				4F47D84C2BBB08E00090C610 /* 49_Group_Anagrams.swift in Sources */,
 				4FA541522D062A9B00FAA179 /* 704_Binary_Search.swift in Sources */,
 				4F47D8542BC325BF0090C610 /* 238_Product_of_Array_Except_Self.swift in Sources */,

@@ -63,19 +63,3 @@ class P704 {
         return -1
     }
 }
-
-
-
-
-
-
-
-/*
- if nums[middle] == target {
-     return middle
- } else if nums[middle] < target {
-     return search(Array(nums[middle...]), target)
- } else {
-     return search(Array(nums[..<middle]), target)
- }
- */
