@@ -43,4 +43,29 @@
 |---|---|---|---|---|
 | [704 - Binary Search](/solutions/Problems/Easy/704_Binary_Search.swift) | [Leetcode](https://leetcode.com/problems/binary-search) | 🟢 | Array, Binary Search | <details><summary>⚠️ Notes (solution spoiler alert)</summary>TBD</details> |
 | [74 - Search a 2D Matrix](/solutions/Problems/Medium/74_Search_2D_Matrix.swift) | [Leetcode](https://leetcode.com/problems/search-a-2d-matrix) | 🟡 | Array, Binary Search, Matrix | <details><summary>⚠️ Notes (solution spoiler alert)</summary>TBD</details> |
+| [875 - Koko Eating Bananas](/solutions/Problems/Medium/875_Koko_Eating_Bananas.swift) | [Leetcode](https://leetcode.com/problems/koko-eating-bananas) | 🟡 | Binary Search, Binary Tree | <details><summary>⚠️ Notes (solution spoiler alert)</summary>TBD</details> |
+
+### Sliding Window
+
+| Problem | Leetcode | Difficulty | Topics | Notes | 
+|---|---|---|---|---|
+| [121 - Best Time to Buy and Sell Stock](/solutions/Problems/Easy/121_Best_Time_to_Buy_and_Sell_Stock.swift) | [Leetcode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 | Array, Dynamic Programming | <details><summary>⚠️ Notes (solution spoiler alert)</summary>TBD</details> |
+| [3 - Longest Substring Without Repeating Characters](/solutions/Problems/Medium/3_Longest_Substring_Without_Repeating_Characters.swift) | [Leetcode](https://leetcode.com/problems/longest-substring-without-repeating-characters) | 🟡 | Hash Table, String, Sliding Window | <details><summary>⚠️ Notes (solution spoiler alert)</summary>TBD</details> |
+
+### Linked List
+
+| Problem | Leetcode | Difficulty | Topics | Notes | 
+|---|---|---|---|---|
+| [206 - Reverse Linked List](/solutions/Problems/Easy/206_Reverse_Linked_List.swift) | [Leetcode](https://leetcode.com/problems/reverse-linked-list/) | 🟢 | Linked List, Recursion | <details><summary>⚠️ Notes (solution spoiler alert)</summary>TBD</details> |
+| [21 - Merge Two Sorted Lists](/solutions/Problems/Easy/21_Merge_Two_Sorted_Lists.swift) | [Leetcode](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 | Linked List, Recursion | <details><summary>⚠️ Notes (solution spoiler alert)</summary>TBD</details> |
+| [143 - Reorder List](/solutions/Problems/Medium/143_Reorder_List.swift) | [Leetcode](https://leetcode.com/problems/reorder-list/) | 🟡 | Linked List, Two Pointers, Stack, Recursion | <details><summary>⚠️ Notes (solution spoiler alert)</summary>TBD</details> |
+
+### Trees
+
+
+### Heap / Priority Queue
+
+
+### Backtracking
+
 
