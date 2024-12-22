@@ -2,7 +2,7 @@ import XCTest
 
 @testable import leetcode
 
-class Reverse_Linked_ListTestsTests: XCTestCase {
+class Reverse_Linked_ListTests: XCTestCase {
 
     // Option 1 (my)
 

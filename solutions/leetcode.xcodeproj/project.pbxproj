@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4F33A54E2BE79E32005AD388 /* 15_3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F33A54D2BE79E32005AD388 /* 15_3Sum.swift */; };
 		4F33A5502BE79E65005AD388 /* 15_3Sum_TestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F33A54F2BE79E65005AD388 /* 15_3Sum_TestsTests.swift */; };
+		4F41F5CD2D189090001DFD34 /* 21_Merge_Two_Sorted_Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F41F5CC2D189090001DFD34 /* 21_Merge_Two_Sorted_Lists.swift */; };
+		4F41F5CF2D189165001DFD34 /* 21_Merge_Two_Sorted_ListsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F41F5CE2D189165001DFD34 /* 21_Merge_Two_Sorted_ListsTests.swift */; };
 		4F47D84B2BBB080E0090C610 /* 49_Group_Anagrams_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47D8492BBB080E0090C610 /* 49_Group_Anagrams_Tests.swift */; };
 		4F47D84C2BBB08E00090C610 /* 49_Group_Anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47D8462BBB06B60090C610 /* 49_Group_Anagrams.swift */; };
 		4F47D84D2BBB08F00090C610 /* 242_Valid_Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA2EC2A9A88CB004211D9 /* 242_Valid_Anagram.swift */; };
@@ -81,6 +83,8 @@
 /* Begin PBXFileReference section */
 		4F33A54D2BE79E32005AD388 /* 15_3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15_3Sum.swift; sourceTree = "<group>"; };
 		4F33A54F2BE79E65005AD388 /* 15_3Sum_TestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15_3Sum_TestsTests.swift; sourceTree = "<group>"; };
+		4F41F5CC2D189090001DFD34 /* 21_Merge_Two_Sorted_Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21_Merge_Two_Sorted_Lists.swift; sourceTree = "<group>"; };
+		4F41F5CE2D189165001DFD34 /* 21_Merge_Two_Sorted_ListsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21_Merge_Two_Sorted_ListsTests.swift; sourceTree = "<group>"; };
 		4F47D8462BBB06B60090C610 /* 49_Group_Anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 49_Group_Anagrams.swift; sourceTree = "<group>"; };
 		4F47D8492BBB080E0090C610 /* 49_Group_Anagrams_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 49_Group_Anagrams_Tests.swift; sourceTree = "<group>"; };
 		4F47D84E2BC2E9B30090C610 /* 347_Top_K_Frequent_Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 347_Top_K_Frequent_Elements.swift; sourceTree = "<group>"; };
@@ -234,6 +238,7 @@
 				4FA541512D062A9B00FAA179 /* 704_Binary_Search.swift */,
 				4F8E54212D0EDF620038DFC7 /* 121_Best_Time_to_Buy_and_Sell_Stock.swift */,
 				4F8E54252D0F0DE30038DFC7 /* 206_Reverse_Linked_List.swift */,
+				4F41F5CC2D189090001DFD34 /* 21_Merge_Two_Sorted_Lists.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 				4FA541532D062AAC00FAA179 /* 704_Binary_Search_Tests.swift */,
 				4F8E54232D0EDF930038DFC7 /* 121_Best_Time_to_Buy_and_Sell_Stock_Tests.swift */,
 				4F8E542A2D0F0F2E0038DFC7 /* 206_Reverse_Linked_ListTests.swift */,
+				4F41F5CE2D189165001DFD34 /* 21_Merge_Two_Sorted_ListsTests.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -420,6 +426,7 @@
 				4F8E54202D0DA4C20038DFC7 /* 875_Koko_Eating_Bananas_Tests.swift in Sources */,
 				4F47D8522BC2EAC20090C610 /* 347_Top_K_Frequent_Elements.swift in Sources */,
 				4FA541542D062AAC00FAA179 /* 704_Binary_Search_Tests.swift in Sources */,
+				4F41F5CD2D189090001DFD34 /* 21_Merge_Two_Sorted_Lists.swift in Sources */,
 				4F795E9B2C0C90000025FE35 /* 739_Daily_Temperatures.swift in Sources */,
 				4F795E9D2C0C90090025FE35 /* 739_Daily_Temperatures_Tests.swift in Sources */,
 				4F33A54E2BE79E32005AD388 /* 15_3Sum.swift in Sources */,
@@ -440,6 +447,7 @@
 				4F7C78DA2BE6835400A7C9D2 /* 167_Two_Sum_II_Input_Array_Is_Sorted_Tests.swift in Sources */,
 				4FEBA2F12A9A88D8004211D9 /* 242_Valid_Anagram_Tests.swift in Sources */,
 				4F8E54242D0EDF930038DFC7 /* 121_Best_Time_to_Buy_and_Sell_Stock_Tests.swift in Sources */,
+				4F41F5CF2D189165001DFD34 /* 21_Merge_Two_Sorted_ListsTests.swift in Sources */,
 				4FEBA2EB2A9A5AED004211D9 /* 217_Contains_Duplicate_Tests.swift in Sources */,
 				CBEB611A27A5583800D40F63 /* 1_TwoSum.swift in Sources */,
 				4F7C78CF2BD46A5200A7C9D2 /* 271_Encode_and_Decode_Strings.swift in Sources */,

@@ -9,7 +9,15 @@
 6. [Linked List](#linked-list)
 7. [Trees](#trees)
 8. [Heap / Priority Queue](#heap--priority-queue)
-9. [Backtracking](#backtracking)
+9. [Intervals](#intervals)
+10. [Greedy](#greedy)
+11. [Backtracking](#backtracking)
+12. [Graphs](#graphs)
+13. [Advanced Graphs](#advanced-graphs)
+14. [1-D DP](#)
+15. [2-D DP](#)
+16. [Bit Manipulation](#bit-manipulation)
+17. [Math & Geometry](#)
 
 ### Arrays & Hashing
 
@@ -69,6 +77,7 @@
 | [206 - Reverse Linked List](/solutions/Problems/Easy/206_Reverse_Linked_List.swift) | [Leetcode](https://leetcode.com/problems/reverse-linked-list/) | 🟢 | Linked List, Recursion | <details><summary>⚠️ Notes</summary>TBD</details> |
 | [21 - Merge Two Sorted Lists](/solutions/Problems/Easy/21_Merge_Two_Sorted_Lists.swift) | [Leetcode](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 | Linked List, Recursion | <details><summary>⚠️ Notes</summary>TBD</details> |
 | [143 - Reorder List](/solutions/Problems/Medium/143_Reorder_List.swift) | [Leetcode](https://leetcode.com/problems/reorder-list/) | 🟡 | Linked List, Two Pointers, Stack, Recursion | <details><summary>⚠️ Notes</summary>TBD</details> |
+| [19 - Remove Nth Node From End of List](/solutions/Problems/Medium/19_Remove_Nth_Node_From_End_of_List.swift) | [Leetcode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 🟡 | Linked List, Two Pointers | <details><summary>⚠️ Notes</summary>TBD</details> |
 
 ### Trees
 
@@ -76,6 +85,28 @@
 ### Heap / Priority Queue
 
 
+### Intervials
+
+
+### Greedy
+
+
 ### Backtracking
 
 
+### Graphs
+
+
+### Advanced Graphs
+
+
+### 1-D DP
+
+
+### 2-D DP
+
+
+### Bit Manipulation
+
+
+### Math & Geometry
