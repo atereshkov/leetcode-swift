@@ -81,6 +81,9 @@
 
 ### Trees
 
+| Problem | Leetcode | Difficulty | Topics | Notes | 
+|---|---|---|---|---|
+| [226 - Invert Binary Tree](/solutions/Problems/Easy/226_Invert_Binary_Tree.swift) | [Leetcode](https://leetcode.com/problems/invert-binary-tree/) | 🟢 | Tree, Depth-First Search, Breadth-First Search, Binary Tree | <details><summary>⚠️ Notes</summary>TBD</details> |
 
 ### Heap / Priority Queue
 
