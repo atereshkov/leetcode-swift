@@ -25,7 +25,7 @@ import Foundation
 
 class P104 {
 
-    // MARK: - Option 1 (my attempt). Time: O(?). Memory: O(?)
+    // MARK: - Option 1 (my attempt). Time: O(n). Memory: O(n)
 
     func maxDepth(_ root: TreeNode?) -> Int {
         if root == nil { return 0 }
