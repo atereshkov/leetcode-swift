@@ -86,6 +86,7 @@
 | [226 - Invert Binary Tree](/solutions/Problems/Easy/226_Invert_Binary_Tree.swift) | [Leetcode](https://leetcode.com/problems/invert-binary-tree/) | 🟢 | Tree, Depth-First Search, Breadth-First Search, Binary Tree | <details><summary>⚠️ Notes</summary>TBD</details> |
 | [104 - Maximum Depth of Binary Tree](/solutions/Problems/Easy/104_Maximum_Depth_of_Binary_Tree.swift) | [Leetcode](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 | Tree, Depth-First Search, Breadth-First Search, Binary Tree | <details><summary>⚠️ Notes</summary>TBD</details> |
 | [543 - Diameter of Binary Tree](/solutions/Problems/Easy/543_Diameter_of_Binary_Tree.swift) | [Leetcode](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 | Tree, Depth-First Search, Binary Tree | <details><summary>⚠️ Notes</summary>TBD</details> |
+| [110 - Balanced Binary Tree](/solutions/Problems/Easy/110_Balanced_Binary_Tree.swift) | [Leetcode](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 | Tree, Depth-First Search, Binary Tree | <details><summary>⚠️ Notes</summary>TBD</details> |
 
 ### Heap / Priority Queue
 
