@@ -22,7 +22,7 @@ class Balanced_Binary_TreeTestsTests: XCTestCase {
         XCTAssertEqual(P110().isBalanced(root2), false)
     }
 
-    // Option 2
+    // Option 2 (neetcode - DFS)
 
     func test110_Balanced_Binary_TreeTests2() {
         let root = TreeNode(

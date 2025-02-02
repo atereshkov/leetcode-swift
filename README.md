@@ -87,6 +87,8 @@
 | [104 - Maximum Depth of Binary Tree](/solutions/Problems/Easy/104_Maximum_Depth_of_Binary_Tree.swift) | [Leetcode](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 | Tree, Depth-First Search, Breadth-First Search, Binary Tree | <details><summary>⚠️ Notes</summary>TBD</details> |
 | [543 - Diameter of Binary Tree](/solutions/Problems/Easy/543_Diameter_of_Binary_Tree.swift) | [Leetcode](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 | Tree, Depth-First Search, Binary Tree | <details><summary>⚠️ Notes</summary>TBD</details> |
 | [110 - Balanced Binary Tree](/solutions/Problems/Easy/110_Balanced_Binary_Tree.swift) | [Leetcode](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 | Tree, Depth-First Search, Binary Tree | <details><summary>⚠️ Notes</summary>TBD</details> |
+| [100 - Same Tree](/solutions/Problems/Easy/100_Same_Tree.swift) | [Leetcode](https://leetcode.com/problems/same-tree/) | 🟢 | Tree, Depth-First Search, Binary Tree | <details><summary>⚠️ Notes</summary>TBD</details> |
+| [572 - Subtree of Another Tree](/solutions/Problems/Easy/572_Subtree_of_Another_Tree.swift) | [Leetcode](https://leetcode.com/problems/subtree-of-another-tree/) | 🟢 | Tree, Depth-First Search, Binary Tree | <details><summary>⚠️ Notes</summary>TBD</details> |
 
 ### Heap / Priority Queue
 
