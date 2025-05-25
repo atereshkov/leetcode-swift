@@ -18,6 +18,7 @@
 15. [2-D DP](#)
 16. [Bit Manipulation](#bit-manipulation)
 17. [Math & Geometry](#)
+18. [Other](#other)
 
 ### Arrays & Hashing
 
@@ -118,3 +119,8 @@
 
 
 ### Math & Geometry
+
+
+### Other
+
+
