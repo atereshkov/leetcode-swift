@@ -123,4 +123,6 @@
 
 ### Other
 
-
+| Problem | Leetcode | Difficulty | Topics | Notes | 
+|---|---|---|---|---|
+| [2942 - Find Words Containing Character](/solutions/Problems/Easy/2942_Find_Words_Containing_Character.swift) | [Leetcode](https://leetcode.com/problems/find-words-containing-character/) | 🟢 | Array, String | n/a |
