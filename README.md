@@ -126,4 +126,5 @@
 | Problem | Leetcode | Difficulty | Topics | Notes | 
 |---|---|---|---|---|
 | [2942 - Find Words Containing Character](/solutions/Problems/Easy/2942_Find_Words_Containing_Character.swift) | [Leetcode](https://leetcode.com/problems/find-words-containing-character/) | 🟢 | Array, String | n/a |
-| [2894 - Divisible and Non-divisible Sums Difference](/solutions/Problems/Easy/2894_Divisible_and_Non_divisible_Sums_Difference) | [Leetcode](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 | Math | n/a |
+| [2894 - Divisible and Non-divisible Sums Difference](/solutions/Problems/Easy/2894_Divisible_and_Non_divisible_Sums_Difference.swift) | [Leetcode](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 | Math | n/a |
+| [3174 - Clear Digits](/solutions/Problems/Easy/3174_Clear_Digits.swift) | [Leetcode](https://leetcode.com/problems/clear-digits/) | 🟢 | String, Stack, Simulation | n/a |
