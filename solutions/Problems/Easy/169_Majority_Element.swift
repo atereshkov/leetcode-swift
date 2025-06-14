@@ -24,7 +24,7 @@ import Foundation
 
 class P169 {
 
-    // MARK: - Option 1. Time: O(?). Memory: O(?)
+    // MARK: - Option 1 - my. Time: O(n). Memory: O(n)
 
     func majorityElement(_ nums: [Int]) -> Int {
         var elements: [Int: Int] = [:]
@@ -34,7 +34,35 @@ class P169 {
         return elements.sorted(by: { $0.value > $1.value }).first!.key
     }
 
-    // MARK: - Option 2. Time: O(?). Memory: O(?)
+    // MARK: - Option 2 - neetcode. Time: O(n). Memory: O(n)
 
+    func majorityElement2(_ nums: [Int]) -> Int {
+        var count: [Int: Int] = [:]
+        var res = 0
+        var maxCount = 0
+        for num in nums {
+            count[num, default: 0] += 1
+            if count[num]! > maxCount {
+                res = num
+            }
+            maxCount = max(count[num]!, maxCount)
+        }
+        return res
+    }
 
+    // MARK: - Option 3 - neetcode (Boyer-Moore). Time: O(n). Memory: O(1)
+
+    func majorityElement3(_ nums: [Int]) -> Int {
+        var count = 0
+        var candidate: Int?
+
+        for num in nums {
+            if count == 0 {
+                candidate = num
+            }
+            count += (num == candidate) ? 1 : -1
+        }
+
+        return candidate!
+    }
 }
