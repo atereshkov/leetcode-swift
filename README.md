@@ -33,7 +33,10 @@
 | [36 - Valid Sudoku](/solutions/Problems/Medium/36_Valid_Sudoku.swift) | [Leetcode](https://leetcode.com/problems/valid-sudoku) | 🟡 | Array, Hash Table, Matrix | <details><summary>⚠️ Notes</summary>Use 3 hashmaps (dictionaries): rows, columns and subsets (3x3, use 'row / 3', 'column / 3' as a key). Check for duplicates in sets</details> |
 | [271 - Encode and Decode Strings](/solutions/Problems/Medium/271_Encode_and_Decode_Strings.swift) | [Leetcode](https://leetcode.com/problems/encode-and-decode-strings) | 🟡 | TBD | <details><summary>⚠️ Notes</summary>Separator is a word length + a sign (e.g., `5,3#hellohey`). Loop through the counts, not through each character and append words calculating start/end indexes.</details> |
 | [128 - Longest Consecutive Sequence](/solutions/Problems/Medium/128_Longest_Consecutive_Sequence.swift) | [Leetcode](https://leetcode.com/problems/longest-consecutive-sequence) | 🟡 | Array, Hash Table, Union Find | <details><summary>⚠️ Notes</summary>Loop and find out if the num is a start of a sequence (`nums[i] - 1` tells that it's a lowest value of a sequence). Then calculate the length of the sequence using `while` and find the longest sequence.</details> |
-| [169 - Majority Element](/solutions/Problems/Medium/169_Majority_Element.swift) | [Leetcode](https://leetcode.com/problems/majority-element/) | 🟢 | Array, Hash Table, Divide and Conquer, Sorting, Counting | <details><summary>⚠️ Notes</summary>TBD</details> |
+| [169 - Majority Element](/solutions/Problems/Easy/169_Majority_Element.swift) | [Leetcode](https://leetcode.com/problems/majority-element/) | 🟢 | Array, Hash Table, Divide and Conquer, Sorting, Counting | <details><summary>⚠️ Notes</summary>TBD</details> |
+| [58 - Length of Last Word](/solutions/Problems/Easy/58_Length_of_Last_Word.swift) | [Leetcode](https://leetcode.com/problems/length-of-last-word/) | 🟢 | String | <details><summary>⚠️ Notes</summary>TBD</details> |
+| [14 - Longest Common Prefix](/solutions/Problems/Easy/14_Longest_Commong_Prefix.swift) | [Leetcode](https://leetcode.com/problems/longest-common-prefix/) | 🟢 | String, Trie | <details><summary>⚠️ Notes</summary>TBD</details> |
+
 
 ### Two Pointers
 
