@@ -36,6 +36,7 @@
 | [169 - Majority Element](/solutions/Problems/Easy/169_Majority_Element.swift) | [Leetcode](https://leetcode.com/problems/majority-element/) | 🟢 | Array, Hash Table, Divide and Conquer, Sorting, Counting | <details><summary>⚠️ Notes</summary>TBD</details> |
 | [58 - Length of Last Word](/solutions/Problems/Easy/58_Length_of_Last_Word.swift) | [Leetcode](https://leetcode.com/problems/length-of-last-word/) | 🟢 | String | <details><summary>⚠️ Notes</summary>TBD</details> |
 | [14 - Longest Common Prefix](/solutions/Problems/Easy/14_Longest_Commong_Prefix.swift) | [Leetcode](https://leetcode.com/problems/longest-common-prefix/) | 🟢 | String, Trie | <details><summary>⚠️ Notes</summary>TBD</details> |
+| [26 - Remove Duplicates from Sorted Array](/solutions/Problems/Easy/26_Remove_Duplicates_from_Sorted_Array.swift) | [Leetcode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 | Array, Two Pointers | <details><summary>⚠️ Notes</summary>TBD</details> |
 
 
 ### Two Pointers
