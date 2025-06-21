@@ -9,6 +9,7 @@ class Remove_Duplicates_from_Sorted_ArrayTestsTests: XCTestCase {
     func test26_Remove_Duplicates_from_Sorted_ArrayTests1() {
         var nums = [1, 1, 2]
         XCTAssertEqual(P26().removeDuplicates(&nums), 2)
+        // TODO check nums as well
 
         var nums2 = [0,0,1,1,1,2,2,3,3,4]
         XCTAssertEqual(P26().removeDuplicates(&nums2), 5)
