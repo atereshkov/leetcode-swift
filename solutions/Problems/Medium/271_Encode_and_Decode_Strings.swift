@@ -58,12 +58,6 @@ func decodeStr(_ string: String) -> [String] {
     return decoded
 }
 
-extension String {
-    public subscript(_ idx: Int) -> Character {
-        self[self.index(self.startIndex, offsetBy: idx)]
-    }
-}
-
 // Option 2 - solution from neetcode. O(n)
 
 func encodeStr2(_ strs: [String]) -> String {

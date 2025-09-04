@@ -38,7 +38,7 @@
 | [14 - Longest Common Prefix](/solutions/Problems/Easy/14_Longest_Commong_Prefix.swift) | [Leetcode](https://leetcode.com/problems/longest-common-prefix/) | 🟢 | String, Trie | <details><summary>⚠️ Notes</summary>TBD</details> |
 | [26 - Remove Duplicates from Sorted Array](/solutions/Problems/Easy/26_Remove_Duplicates_from_Sorted_Array.swift) | [Leetcode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 | Array, Two Pointers | <details><summary>⚠️ Notes</summary>TBD</details> |
 | [27 - Remove Element](/solutions/Problems/Easy/27_Remove_Element.swift) | [Leetcode](https://leetcode.com/problems/remove-element/) | 🟢 | Array, Two Pointers | <details><summary>⚠️ Notes</summary>TBD</details> |
-
+| [28 - Find the Index of the First Occurrence in a String](/solutions/Problems/Easy/28_Find_the_Index_of_the_First_Occurrence_in_a_String.swift) | [Leetcode](https://leetcode.com/problems/remove-element/) | 🟢 | Two Pointers, String, String Matching | <details><summary>⚠️ Notes</summary>TBD</details> |
 
 ### Two Pointers
 
@@ -134,3 +134,4 @@
 | [2942 - Find Words Containing Character](/solutions/Problems/Easy/2942_Find_Words_Containing_Character.swift) | [Leetcode](https://leetcode.com/problems/find-words-containing-character/) | 🟢 | Array, String | n/a |
 | [2894 - Divisible and Non-divisible Sums Difference](/solutions/Problems/Easy/2894_Divisible_and_Non_divisible_Sums_Difference.swift) | [Leetcode](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 | Math | n/a |
 | [3174 - Clear Digits](/solutions/Problems/Easy/3174_Clear_Digits.swift) | [Leetcode](https://leetcode.com/problems/clear-digits/) | 🟢 | String, Stack, Simulation | n/a |
+| [3516 - Find Closest Person](/solutions/Problems/Easy/3516_Find_Closest_Person.swift) | [Leetcode](https://leetcode.com/problems/find-closest-person/) | 🟢 | Math | n/a |
