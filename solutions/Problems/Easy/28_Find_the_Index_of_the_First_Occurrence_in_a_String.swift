@@ -1,5 +1,5 @@
 /*
- Done XX.XX.XXXX. Revisited: N/A
+ Done 04.09.2025. Revisited: N/A
 
  Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
 
@@ -18,27 +18,58 @@
  1 <= haystack.length, needle.length <= 104
  haystack and needle consist of only lowercase English characters.
 
-
+ Google
+ https://www.youtube.com/watch?v=Gjkhm1gYIMw
  */
 
 import Foundation
 
 class P28 {
 
-    // MARK: - Option 1. Time: O(?). Memory: O(?)
+    // MARK: - Option 1. Time: O(n * m). Memory: O(?)
 
     func strStr(_ haystack: String, _ needle: String) -> Int {
-        var index = -1
+        if needle.count > haystack.count { return -1 }
+
+        var firstIndex = -1
+
         for i in 0..<haystack.count {
-            // TODO
+            if haystack[i] == needle.first {
+                firstIndex = i
+                for j in 0..<needle.count {
+                    if (i + j >= haystack.count) {
+                        firstIndex = -1
+                        break
+                    }
+                    if haystack[i + j] != needle[j] {
+                        firstIndex = -1
+                        break
+                    }
+                }
+                if firstIndex != -1 { return firstIndex }
+            }
         }
-        return index
+
+        return firstIndex
     }
 
-    // MARK: - Option 2. Time: O(?). Memory: O(?)
+    // MARK: - Option 2 (neetcode). Time: O(n * m). Memory: O(?)
 
     func strStr2(_ haystack: String, _ needle: String) -> Int {
-        return 0
+        if needle.count > haystack.count { return -1 }
+
+        for i in 0..<haystack.count + 1 - needle.count {
+            for j in 0..<needle.count {
+                if haystack[i + j] != needle[j] {
+                    break
+                }
+                if j == needle.count - 1 {
+                    return i
+                }
+            }
+        }
+
+        return -1
     }
 
 }

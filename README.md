@@ -38,7 +38,7 @@
 | [14 - Longest Common Prefix](/solutions/Problems/Easy/14_Longest_Commong_Prefix.swift) | [Leetcode](https://leetcode.com/problems/longest-common-prefix/) | 🟢 | String, Trie | <details><summary>⚠️ Notes</summary>TBD</details> |
 | [26 - Remove Duplicates from Sorted Array](/solutions/Problems/Easy/26_Remove_Duplicates_from_Sorted_Array.swift) | [Leetcode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 | Array, Two Pointers | <details><summary>⚠️ Notes</summary>TBD</details> |
 | [27 - Remove Element](/solutions/Problems/Easy/27_Remove_Element.swift) | [Leetcode](https://leetcode.com/problems/remove-element/) | 🟢 | Array, Two Pointers | <details><summary>⚠️ Notes</summary>TBD</details> |
-| [28 - Find the Index of the First Occurrence in a String](/solutions/Problems/Easy/28_Find_the_Index_of_the_First_Occurrence_in_a_String.swift) | [Leetcode](https://leetcode.com/problems/remove-element/) | 🟢 | Two Pointers, String, String Matching | <details><summary>⚠️ Notes</summary>TBD</details> |
+| [28 - Find the Index of the First Occurrence in a String](/solutions/Problems/Easy/28_Find_the_Index_of_the_First_Occurrence_in_a_String.swift) | [Leetcode](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 🟢 | Two Pointers, String, String Matching | <details><summary>⚠️ Notes</summary>TBD</details> |
 
 ### Two Pointers
 
