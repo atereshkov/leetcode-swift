@@ -87,6 +87,8 @@
 		4FBCCEA92E6A1C7E005ECD34 /* 3516_Find_Closest_PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCCEA82E6A1C7E005ECD34 /* 3516_Find_Closest_PersonTests.swift */; };
 		4FBCCEAB2E6B53C1005ECD34 /* 392_Is_Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCCEAA2E6B53C1005ECD34 /* 392_Is_Subsequence.swift */; };
 		4FBCCEAD2E6B53CD005ECD34 /* 392_Is_SubsequenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCCEAC2E6B53CD005ECD34 /* 392_Is_SubsequenceTests.swift */; };
+		4FBCCEAF2E6C4CE2005ECD34 /* 88_Merge_Sorted_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCCEAE2E6C4CE2005ECD34 /* 88_Merge_Sorted_Array.swift */; };
+		4FBCCEB12E6C4CEA005ECD34 /* 88_Merge_Sorted_ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCCEB02E6C4CEA005ECD34 /* 88_Merge_Sorted_ArrayTests.swift */; };
 		4FEBA2E82A9A5A8A004211D9 /* 217_Contains_Duplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA2E62A9A5A8A004211D9 /* 217_Contains_Duplicate.swift */; };
 		4FEBA2EB2A9A5AED004211D9 /* 217_Contains_Duplicate_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA2E92A9A5AED004211D9 /* 217_Contains_Duplicate_Tests.swift */; };
 		4FEBA2F12A9A88D8004211D9 /* 242_Valid_Anagram_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA2EF2A9A88D8004211D9 /* 242_Valid_Anagram_Tests.swift */; };
@@ -197,6 +199,8 @@
 		4FBCCEA82E6A1C7E005ECD34 /* 3516_Find_Closest_PersonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3516_Find_Closest_PersonTests.swift; sourceTree = "<group>"; };
 		4FBCCEAA2E6B53C1005ECD34 /* 392_Is_Subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 392_Is_Subsequence.swift; sourceTree = "<group>"; };
 		4FBCCEAC2E6B53CD005ECD34 /* 392_Is_SubsequenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 392_Is_SubsequenceTests.swift; sourceTree = "<group>"; };
+		4FBCCEAE2E6C4CE2005ECD34 /* 88_Merge_Sorted_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 88_Merge_Sorted_Array.swift; sourceTree = "<group>"; };
+		4FBCCEB02E6C4CEA005ECD34 /* 88_Merge_Sorted_ArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 88_Merge_Sorted_ArrayTests.swift; sourceTree = "<group>"; };
 		4FEBA2E62A9A5A8A004211D9 /* 217_Contains_Duplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 217_Contains_Duplicate.swift; sourceTree = "<group>"; };
 		4FEBA2E92A9A5AED004211D9 /* 217_Contains_Duplicate_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 217_Contains_Duplicate_Tests.swift; sourceTree = "<group>"; };
 		4FEBA2EC2A9A88CB004211D9 /* 242_Valid_Anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 242_Valid_Anagram.swift; sourceTree = "<group>"; };
@@ -333,6 +337,7 @@
 				4F516CEF2E06D0FF00C8C83D /* 28_Find_the_Index_of_the_First_Occurrence_in_a_String.swift */,
 				4FBCCEA62E6A1C6B005ECD34 /* 3516_Find_Closest_Person.swift */,
 				4FBCCEAA2E6B53C1005ECD34 /* 392_Is_Subsequence.swift */,
+				4FBCCEAE2E6C4CE2005ECD34 /* 88_Merge_Sorted_Array.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -366,6 +371,7 @@
 				4F516CF12E06D11300C8C83D /* 28_Find_the_Index_of_the_First_Occurrence_in_a_StringTests.swift */,
 				4FBCCEA82E6A1C7E005ECD34 /* 3516_Find_Closest_PersonTests.swift */,
 				4FBCCEAC2E6B53CD005ECD34 /* 392_Is_SubsequenceTests.swift */,
+				4FBCCEB02E6C4CEA005ECD34 /* 88_Merge_Sorted_ArrayTests.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -540,6 +546,7 @@
 				4F8A62C42DEDE12600598687 /* CharStack.swift in Sources */,
 				CBEB612427A5D88E00D40F63 /* 2_Add_Two_Numbers_Tests.swift in Sources */,
 				4FA541562D0642C500FAA179 /* 74_Search_2D_Matrix.swift in Sources */,
+				4FBCCEB12E6C4CEA005ECD34 /* 88_Merge_Sorted_ArrayTests.swift in Sources */,
 				4F516CF02E06D0FF00C8C83D /* 28_Find_the_Index_of_the_First_Occurrence_in_a_String.swift in Sources */,
 				4F8A62C82DEDE18400598687 /* 3174_Clear_DigitsTests.swift in Sources */,
 				4F516C2A2DFEC8E600C8C83D /* 14_Longest_Commong_Prefix.swift in Sources */,
@@ -601,6 +608,7 @@
 				4FBCCEA92E6A1C7E005ECD34 /* 3516_Find_Closest_PersonTests.swift in Sources */,
 				4F7C78C82BD3C9D200A7C9D2 /* 36_Valid_Sudoku.swift in Sources */,
 				4F111B4F2D2C0A4A005CB746 /* 104_Maximum_Depth_of_Binary_TreeTests.swift in Sources */,
+				4FBCCEAF2E6C4CE2005ECD34 /* 88_Merge_Sorted_Array.swift in Sources */,
 				4F8490F32C022252004AC7DE /* 11_Container_With_Most_Water.swift in Sources */,
 				CBA55A09275CC81F0005C92C /* 1_TwoSum_Tests.swift in Sources */,
 				4F8E54222D0EDF620038DFC7 /* 121_Best_Time_to_Buy_and_Sell_Stock.swift in Sources */,
