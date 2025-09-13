@@ -52,6 +52,7 @@
 | [11 - Container With Most Water](/solutions/Problems/Medium/11_Container_With_Most_Water.swift) | [Leetcode](https://leetcode.com/problems/container-with-most-water) | 🟡 | Array, Two Pointers, Greedy | <details><summary>⚠️ Notes</summary>The left p is the start, and the right p is the end of the array. Calculate the max area `((r - l) * min(h[l], h[r]))` and update the left or right pointer depending on whether `h[l]` is `<` or `>` than `h[r]`.</details> |
 | [42 - Trapping Rain Water](/solutions/Problems/Hard/42_Trapping_Rain_Water.swift) | [Leetcode](https://leetcode.com/problems/trapping-rain-water) | 🔴 | Array, Two Pointers, DP, Stack, Monotonic Stack | <details><summary>⚠️ Notes</summary>TBD</details> |
 | [36 - Is Subsequence](/solutions/Problems/Easy/36_Is_Subsequence.swift) | [Leetcode](https://leetcode.com/problems/is-subsequence/) | 🟢 | Two Pointers, String, Dynamic Programming | <details><summary>⚠️ Notes</summary>TBD</details> |
+| [202 - Happy Number](/solutions/Problems/Easy/202_Happy_Number.swift) | [Leetcode](https://leetcode.com/problems/happy-number/) | 🟢 | Hash Table, Maps, Two Pointers | <details><summary>⚠️ Notes</summary>TBD</details> |
 
 ### Stack
 
